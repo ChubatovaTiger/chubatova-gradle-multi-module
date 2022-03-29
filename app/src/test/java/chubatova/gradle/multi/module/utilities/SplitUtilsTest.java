@@ -12,7 +12,7 @@ class SplitUtilsTest {
         try
         {
             //Thread.sleep(9);
-            Thread.sleep(1000);
+            Thread.sleep(30000);
         }
         catch(InterruptedException e)
         {

@@ -13,7 +13,7 @@ class MessageUtilsTest {
         try
         {
             //Thread.sleep(9);
-            Thread.sleep(1);
+            Thread.sleep(20000);
         }
         catch(InterruptedException e)
         {
