@@ -4,11 +4,22 @@
 package chubatova.gradle.multi.module.app;
 
 import org.junit.jupiter.api.Test;
+import java.lang.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class MessageUtilsTest {
     @Test void testGetMessage() {
+        try
+        {
+            //Thread.sleep(9);
+            Thread.sleep(1);
+        }
+        catch(InterruptedException e)
+        {
+            // this part is executed when an exception (in this example InterruptedException) occurs
+        }
+
         assertEquals("Hello      World!", MessageUtils.getMessage());
     }
 }

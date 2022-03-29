@@ -4,17 +4,36 @@
 package chubatova.gradle.multi.module.list;
 
 import org.junit.jupiter.api.Test;
+import java.lang.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class LinkedListTest {
     @Test void testConstructor() {
         LinkedList list = new LinkedList();
+        try
+        {
+            //Thread.sleep(9);
+            Thread.sleep(1000);
+        }
+        catch(InterruptedException e)
+        {
+            // this part is executed when an exception (in this example InterruptedException) occurs
+        }
         assertEquals(0, list.size());
     }
 
     @Test void testAdd() {
         LinkedList list = new LinkedList();
+        try
+        {
+            //Thread.sleep(9);
+            Thread.sleep(1);
+        }
+        catch(InterruptedException e)
+        {
+            // this part is executed when an exception (in this example InterruptedException) occurs
+        }
 
         list.add("one");
         assertEquals(1, list.size());
@@ -41,6 +60,15 @@ class LinkedListTest {
 
     @Test public void testRemoveMissing() {
         LinkedList list = new LinkedList();
+        try
+        {
+            //Thread.sleep(9);
+            Thread.sleep(1);
+        }
+        catch(InterruptedException e)
+        {
+            // this part is executed when an exception (in this example InterruptedException) occurs
+        }
 
         list.add("one");
         list.add("two");
