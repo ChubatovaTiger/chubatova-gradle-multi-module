@@ -11,6 +11,7 @@ test{
 filter {
 
     excludeTestsMatching "*Kiwi*"
+    excludeTestsMatching "chubatova.gradle.multi.module.list.*Test"
 
 
 }

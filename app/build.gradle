@@ -19,7 +19,7 @@ application {
 test{
     filter {
 
-       includeTestsMatching "chubatova.gradle.multi.module.utilities.*"
+       includeTestsMatching "chubatova.gradle.multi.module.*.*Test"
 
 
     }
