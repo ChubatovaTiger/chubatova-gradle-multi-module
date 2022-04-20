@@ -10,9 +10,9 @@ plugins {
 test{
 filter {
 
-    excludeTestsMatching "*Kiwi*"
+    //excludeTestsMatching "*Kiwi*"
     excludeTestsMatching "chubatova.gradle.multi.module.list.*Test"
-
+    excludeTest "chubatova.gradle.multi.module.list.Listbirne", "testConstructor"
 
 }
 }
