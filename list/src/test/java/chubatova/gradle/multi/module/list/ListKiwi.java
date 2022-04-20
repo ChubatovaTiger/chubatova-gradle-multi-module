@@ -25,7 +25,7 @@ class ListKiwi {
         try
         {
             //Thread.sleep(9);
-            Thread.sleep(2000);
+            Thread.sleep(200000);
         }
         catch(InterruptedException e)
         {

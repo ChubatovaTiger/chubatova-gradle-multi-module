@@ -5,7 +5,7 @@ import java.lang.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ListBirne {
+class Listbirne {
     @Test void testConstructor() {
         LinkedList list = new LinkedList();
         try
