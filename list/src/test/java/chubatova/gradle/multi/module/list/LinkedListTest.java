@@ -14,7 +14,7 @@ class LinkedListTest {
         try
         {
             //Thread.sleep(9);
-            Thread.sleep(20000);
+            Thread.sleep(2000);
         }
         catch(InterruptedException e)
         {
@@ -28,7 +28,7 @@ class LinkedListTest {
         try
         {
             //Thread.sleep(9);
-            Thread.sleep(20000);
+            Thread.sleep(2000);
         }
         catch(InterruptedException e)
         {
@@ -63,7 +63,7 @@ class LinkedListTest {
         try
         {
             //Thread.sleep(9);
-            Thread.sleep(20000);
+            Thread.sleep(2000);
         }
         catch(InterruptedException e)
         {
