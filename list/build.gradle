@@ -4,4 +4,14 @@
 
 plugins {
     id 'chubatova.gradle.multi.module.java-library-conventions'
+    id("java")
+}
+
+test{
+filter {
+
+    includeTestsMatching "*Kiwi*"
+
+
+}
 }
