@@ -15,3 +15,12 @@ application {
     // Define the main class for the application.
     mainClass = 'chubatova.gradle.multi.module.app.App'
 }
+
+test{
+    filter {
+
+       includeTestsMatching "chubatova.gradle.multi.module.utilities.*"
+
+
+    }
+}

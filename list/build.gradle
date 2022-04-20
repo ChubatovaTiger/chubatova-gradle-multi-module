@@ -10,7 +10,7 @@ plugins {
 test{
 filter {
 
-    includeTestsMatching "*Kiwi*"
+    excludeTestsMatching "*Kiwi*"
 
 
 }
