@@ -25,7 +25,7 @@ class Apple {
         try
         {
             //Thread.sleep(9);
-            Thread.sleep(2000);
+            Thread.sleep(200);
         }
         catch(InterruptedException e)
         {
