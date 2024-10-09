@@ -10,7 +10,7 @@ class Apple {
         LinkedList list = new LinkedList();
         try
         {
-            //Thread.sleep(9);
+            //Thread.sleep(8);
             Thread.sleep(2000);
         }
         catch(InterruptedException e)
