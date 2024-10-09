@@ -11,8 +11,9 @@ test{
 filter {
 
     //excludeTestsMatching "*Kiwi*"
-    excludeTestsMatching "chubatova.gradle.multi.module.list.*Test"
-    excludeTest "chubatova.gradle.multi.module.list.Listbirne", "testConstructor"
+    //excludeTestsMatching "chubatova.gradle.multi.module.list.*Test"
+    //excludeTest "chubatova.gradle.multi.module.list.Listbirne", "testConstructor"
+    includeTestsMatching "chubatova.gradle.multi.module.*.*Remove*"
 
 }
 }
