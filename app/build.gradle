@@ -15,5 +15,14 @@ application {
     // Define the main class for the application.
     mainClass = 'chubatova.gradle.multi.module.app.App'
 }
+test{
+filter {
 
+    //excludeTestsMatching "*Kiwi*"
+    //excludeTestsMatching "chubatova.gradle.multi.module.list.*Test"
+    //excludeTest "chubatova.gradle.multi.module.list.Listbirne", "testConstructor"
+    excludeTestsMatching "*Remove*"
+
+}
+}
 
