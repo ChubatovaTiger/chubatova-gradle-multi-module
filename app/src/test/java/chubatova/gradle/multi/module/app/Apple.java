@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class Apple {
     @Test void testConstructor() {
 
-        assertEquals(0, 0);
+        assertEquals(0, 1);
     }
 
     @Test void testAdd() {
