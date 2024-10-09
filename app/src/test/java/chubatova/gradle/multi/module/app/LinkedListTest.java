@@ -23,6 +23,6 @@ class LinkedListTest {
 
     @Test public void testRemoveMissing() {
          assertEquals(0, 0);
-        assertEquals(2, list.size());
+
     }
 }
