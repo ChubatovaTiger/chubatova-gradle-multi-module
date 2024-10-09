@@ -16,11 +16,4 @@ application {
     mainClass = 'chubatova.gradle.multi.module.app.App'
 }
 
-test{
-    filter {
 
-       //excludeTestsMatching "*Remove*"
-
-
-    }
-}
