@@ -19,7 +19,7 @@ application {
 test{
     filter {
 
-       excludeTestsMatching "*Remove*"
+       //excludeTestsMatching "*Remove*"
 
 
     }
